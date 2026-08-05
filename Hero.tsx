@@ -59,7 +59,7 @@ export default function Hero() {
           <span className="inline-flex items-center gap-2.5 px-5 py-2.5 rounded-full glass text-sm font-medium text-accent border border-accent/10">
             <Sparkles size={14} className="text-accent-2" />
             <span className="relative">
-              Available for freelance work
+              Fresh Graduate Software Engineer
               <span className="absolute -right-3 top-1/2 -translate-y-1/2 w-2 h-2 bg-green-400 rounded-full animate-pulse" />
             </span>
           </span>
