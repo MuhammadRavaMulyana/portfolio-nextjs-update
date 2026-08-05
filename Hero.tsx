@@ -98,7 +98,7 @@ export default function Hero() {
           transition={{ duration: 0.7, delay: 0.8, ease: [0.16, 1, 0.3, 1] }}
           className="text-lg md:text-xl text-text-secondary max-w-2xl mx-auto leading-relaxed mb-10"
         >
-          I&apos;m a <span className="text-text-primary font-medium">creative developer</span> who transforms
+          I'm a <span className="text-text-primary font-medium">creative developer</span> who transforms
           ideas into immersive digital realities. Specializing in modern web technologies
           with a focus on performance and aesthetics.
         </motion.p>

@@ -82,7 +82,7 @@ export default function About() {
             transition={{ duration: 0.8, delay: 0.2, ease: [0.16, 1, 0.3, 1] }}
           >
             <p className="text-lg text-text-secondary leading-relaxed mb-6">
-              I&apos;m a <span className="text-text-primary font-medium">creative full-stack developer</span> with over 5 years of experience
+              I'm a <span className="text-text-primary font-medium">creative full-stack developer</span> with over 5 years of experience
               building scalable web applications. My expertise spans from crafting pixel-perfect
               UIs to architecting robust backend systems.
             </p>

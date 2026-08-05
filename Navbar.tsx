@@ -103,7 +103,7 @@ export default function Navbar() {
               whileTap={{ scale: 0.95 }}
               className="hidden md:inline-flex items-center gap-2 px-5 py-2.5 rounded-xl bg-gradient-to-r from-accent to-accent-2 text-white text-sm font-semibold shadow-lg shadow-accent/20"
             >
-              Let&apos;s Talk
+              Let's Talk
             </motion.a>
             <button
               className="lg:hidden text-white p-2 rounded-lg hover:bg-white/[0.06] transition-colors"

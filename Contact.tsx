@@ -40,10 +40,10 @@ export default function Contact() {
             Get in Touch
           </span>
           <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight">
-            Let&apos;s <span className="gradient-text">Collaborate</span>
+            Let's <span className="gradient-text">Collaborate</span>
           </h2>
           <p className="text-text-secondary mt-4 max-w-xl mx-auto">
-            Have a project in mind? I&apos;d love to hear about it. Let&apos;s create something amazing together.
+            Have a project in mind? I'd love to hear about it. Let's create something amazing together.
           </p>
         </motion.div>
 
@@ -58,7 +58,7 @@ export default function Contact() {
             <div>
               <h3 className="text-2xl font-bold mb-4">Contact Information</h3>
               <p className="text-text-secondary leading-relaxed">
-                I&apos;m currently available for freelance projects and full-time positions.
+                I'm currently available for freelance projects and full-time positions.
                 Feel free to reach out through any of these channels.
               </p>
             </div>
