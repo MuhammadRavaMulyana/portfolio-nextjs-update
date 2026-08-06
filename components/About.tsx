@@ -100,7 +100,7 @@ export default function About() {
               <span className="text-text-primary font-medium">
                 clean and efficient code
               </span>
-                . I'm always eager to learn new technologies, improve my technical skills,
+                . I&apos;m always eager to learn new technologies, improve my technical skills,
                 and collaborate with teams to build meaningful digital solutions.
             </p>
 
