@@ -187,7 +187,7 @@ export default function About() {
 
 function StatCard({
   value, suffix, label, delay, start,
-}: { value: number; suffix: string; label: string; delay: number; start: boolean }) {
+}: { value: number; suffix?: string; label: string; delay: number; start: boolean }) {
   const count = useCountUp(value, 2000, start);
   return (
     <motion.div
