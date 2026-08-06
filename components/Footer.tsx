@@ -18,9 +18,9 @@ export default function Footer() {
             transition={{ duration: 0.6 }}
             className="text-center md:text-left"
           >
-            <div className="text-xl font-bold gradient-text mb-2">Portfolio.</div>
+            <div className="text-xl font-bold gradient-text mb-2">Muhammad Rava Mulyana</div>
             <p className="text-sm text-text-muted">
-              Crafting digital experiences with passion & precision.
+              Building modern, responsive, and user-friendly web applications.
             </p>
           </motion.div>
 
@@ -31,8 +31,7 @@ export default function Footer() {
             className="flex items-center gap-2 text-sm text-text-muted"
           >
             <span>Made with</span>
-            <Heart size={14} className="text-red-500 fill-red-500 animate-pulse" />
-            <span>by Alex Developer</span>
+            <span>Designed & Built by Muhammad Rava Mulyana</span>
           </motion.div>
 
           <motion.button
@@ -55,7 +54,7 @@ export default function Footer() {
           className="mt-8 pt-8 border-t border-white/[0.04] text-center"
         >
           <p className="text-xs text-text-muted">
-            &copy; {new Date().getFullYear()} Alex Developer. All rights reserved.
+            &copy; {new Date().getFullYear()} Muhammad Rava Mulyana. All rights reserved.
           </p>
         </motion.div>
       </div>

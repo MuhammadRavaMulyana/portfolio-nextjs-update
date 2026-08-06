@@ -8,27 +8,30 @@ const skillCategories = [
   {
     name: "Frontend",
     skills: [
-      { name: "React / Next.js", level: 95 },
-      { name: "TypeScript", level: 92 },
-      { name: "Tailwind CSS", level: 95 },
-      { name: "Framer Motion", level: 88 },
+      { name: "HTML", level: 80 },
+      { name: "CSS", level: 80 },
+      { name: "JavaScript", level: 50 },
+      { name: "Next.js", level: 60 },
+      { name: "Tailwind CSS", level: 60 },
     ],
   },
   {
     name: "Backend",
     skills: [
-      { name: "Node.js", level: 88 },
-      { name: "PostgreSQL", level: 82 },
-      { name: "GraphQL", level: 78 },
-      { name: "Redis", level: 75 },
+      { name: "Node.js", level: 30 },
+      { name: "PostgreSQL", level: 50 },
+      { name: "MySQL", level: 60 },
+      { name: "REST API", level: 50 },
+      { name: "Midtrans API", level: 60 },
     ],
   },
   {
     name: "DevOps & Tools",
     skills: [
-      { name: "Docker", level: 80 },
-      { name: "AWS / Vercel", level: 78 },
-      { name: "Git / CI/CD", level: 90 },
+      { name: "GitHub", level: 80 },
+      { name: "WordPress", level: 90 },
+      { name: "Elementor", level: 90 },
+      { name: "Visual Studio Code", level: 85 },
       { name: "Figma", level: 85 },
     ],
   },
@@ -47,13 +50,13 @@ export default function Skills() {
           className="text-center mb-16"
         >
           <span className="inline-block text-sm font-semibold text-accent uppercase tracking-[3px] mb-4">
-            Expertise
+            TECHNICAL SKILLS
           </span>
           <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight">
             Skills & <span className="gradient-text">Technologies</span>
           </h2>
           <p className="text-text-secondary mt-4 max-w-xl mx-auto">
-            Technologies and tools I use to bring ideas to life.
+            Technologies, frameworks, and tools I use to build responsive, scalable, and user-friendly applications.
           </p>
         </motion.div>
 

@@ -5,12 +5,13 @@ import { useInView } from "@/hooks/useInView";
 import { useState } from "react";
 import {
   Mail, Linkedin, Github, Twitter, Send, Check, MapPin, Phone,
+  Instagram,
 } from "lucide-react";
 
 const socialLinks = [
-  { icon: Github, label: "GitHub", value: "github.com/username", href: "https://github.com" },
-  { icon: Linkedin, label: "LinkedIn", value: "linkedin.com/in/username", href: "https://linkedin.com" },
-  { icon: Twitter, label: "Twitter", value: "@username", href: "https://twitter.com" },
+  { icon: Github, label: "GitHub", value: "github.com/username", href: "https://github.com/MuhammadRavaMulyana" },
+  { icon: Linkedin, label: "LinkedIn", value: "linkedin.com/in/username", href: "https://www.linkedin.com/in/muhammadravamulyana/" },
+  { icon: Instagram, label: "Instagram", value: "@username", href: "https://instagram.com/Muhammadrava_29" },
 ];
 
 export default function Contact() {
@@ -40,10 +41,10 @@ export default function Contact() {
             Get in Touch
           </span>
           <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight">
-            Let&apos;s <span className="gradient-text">Collaborate</span>
+            Let&apos;s <span className="gradient-text">Connect</span>
           </h2>
           <p className="text-text-secondary mt-4 max-w-xl mx-auto">
-            Have a project in mind? I&apos;d love to hear about it. Let&apos;s create something amazing together.
+            I'm currently seeking full-time opportunities as a Software Engineer. I'm also open to internships and collaborations. Feel free to reach out through the contact form or connect with me via email or LinkedIn.
           </p>
         </motion.div>
 
@@ -58,15 +59,14 @@ export default function Contact() {
             <div>
               <h3 className="text-2xl font-bold mb-4">Contact Information</h3>
               <p className="text-text-secondary leading-relaxed">
-                I&apos;m currently available for freelance projects and full-time positions.
-                Feel free to reach out through any of these channels.
+                I'm currently seeking full-time opportunities as a Software Engineer. Feel free to reach out via email, LinkedIn, or the contact form. I'd be happy to connect and discuss opportunities.
               </p>
             </div>
 
             <div className="space-y-4">
-              <ContactItem icon={Mail} label="Email" value="hello@example.com" href="mailto:hello@example.com" />
-              <ContactItem icon={Phone} label="Phone" value="+1 (555) 123-4567" href="tel:+15551234567" />
-              <ContactItem icon={MapPin} label="Location" value="San Francisco, CA" />
+              <ContactItem icon={Mail} label="Email" value="ravam7209@gmail.com" href="mailto:ravam7209@gmail.com" />
+              <ContactItem icon={Phone} label="Phone" value="+62 81399383437" href="tel:+6281399383437" />
+              <ContactItem icon={MapPin} label="Location" value="DKI Jakarta, Indonesia" />
             </div>
 
             <div>
@@ -107,7 +107,7 @@ export default function Contact() {
                   type="text"
                   value={formData.name}
                   onChange={(e) => setFormData({ ...formData, name: e.target.value })}
-                  placeholder="John Doe"
+                  placeholder="Enter your full name"
                   required
                   className="w-full px-4 py-3.5 rounded-xl bg-white/[0.03] border border-white/[0.06] text-white placeholder:text-text-muted text-sm focus:outline-none focus:border-accent/40 focus:ring-1 focus:ring-accent/20 transition-all"
                 />
@@ -118,7 +118,7 @@ export default function Contact() {
                   type="email"
                   value={formData.email}
                   onChange={(e) => setFormData({ ...formData, email: e.target.value })}
-                  placeholder="john@example.com"
+                  placeholder="Enter your email address"
                   required
                   className="w-full px-4 py-3.5 rounded-xl bg-white/[0.03] border border-white/[0.06] text-white placeholder:text-text-muted text-sm focus:outline-none focus:border-accent/40 focus:ring-1 focus:ring-accent/20 transition-all"
                 />
@@ -129,7 +129,7 @@ export default function Contact() {
               <textarea
                 value={formData.message}
                 onChange={(e) => setFormData({ ...formData, message: e.target.value })}
-                placeholder="Tell me about your project..."
+                placeholder="Tell me how I can help you..."
                 required
                 rows={5}
                 className="w-full px-4 py-3.5 rounded-xl bg-white/[0.03] border border-white/[0.06] text-white placeholder:text-text-muted text-sm focus:outline-none focus:border-accent/40 focus:ring-1 focus:ring-accent/20 transition-all resize-none"

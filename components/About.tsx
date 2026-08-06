@@ -9,32 +9,32 @@ import Image from "next/image";
 
 const timeline = [
   {
-    year: "2024",
-    title: "Senior Full-Stack Developer",
-    company: "TechCorp Inc.",
-    description: "Leading development of enterprise SaaS platform serving 100K+ users",
-    icon: Briefcase,
-  },
-  {
-    year: "2022",
-    title: "Full-Stack Developer",
-    company: "Digital Agency",
-    description: "Built 20+ client projects using React, Next.js, and Node.js",
-    icon: Code2,
-  },
-  {
-    year: "2021",
-    title: "Frontend Developer",
-    company: "Startup Studio",
-    description: "Developed responsive web apps and design systems",
+    year: "2026",
+    title: "Bachelor of Computer Science",
+    company: "BINUS University",
+    description: "Graduated with a concentration in Software Engineering. Completed a final project titled Arenaku, a web-based sports court rental management system built using Next.js, TypeScript, and Tailwind CSS.",
     icon: GraduationCap,
   },
   {
-    year: "2019",
-    title: "Computer Science Degree",
-    company: "University",
-    description: "Graduated with honors, specializing in web technologies",
+    year: "2025",
+    title: "Software Engineer Intern",
+    company: "PT Arkana Dwi Mutiara",
+    description: "Developed and maintained company websites, redesigned the Cerita Moon website, built the Marufuku Jaya Buana website, and contributed to the Parentoday mobile application using Flutter and modern web technologies.",
+    icon: Code2,
+  },
+  {
+    year: "2024",
+    title: "Badminton Achievements",
+    company: "BINUS Badminton Club",
+    description: "Won 1st Place in Men's Singles (Members Cup 2024) and actively participated in sports and organizational activities while balancing academic and technical development.",
     icon: Award,
+  },
+  {
+    year: "2022",
+    title: "Started Computer Science",
+    company: "BINUS University",
+    description: "Began studying Computer Science with a focus on Software Engineering while building a strong foundation in programming, algorithms, databases, and web development.",
+    icon: Briefcase,
   },
 ];
 

@@ -7,42 +7,42 @@ import { useRef } from "react";
 
 const projectsList = [
   {
-    title: "Nexus Commerce",
-    description: "Enterprise-grade e-commerce platform with real-time inventory, AI recommendations, and multi-currency payments.",
-    tags: ["Next.js 14", "Stripe", "Prisma", "PostgreSQL", "Redis"],
+    title: "Arenaku",
+    description: "A web-based sports court rental management system featuring a multi-tenant architecture, real-time booking, and secure online payment integration to simplify venue management.",
+    tags: ["Next.js 14", "TypeScript", "Tailwind CSS", "PostgreSQL", "Midtrans",],
     color: "#6366f1",
     gradient: "from-[#6366f1] to-[#8b5cf6]",
-    stats: { users: "50K+", rating: "4.9" },
+    stats: { users: "Final Year Project", rating: "2026" },
     github: "https://github.com",
     live: "https://example.com",
   },
   {
-    title: "TaskFlow Pro",
-    description: "Collaborative project management tool with real-time sync, Kanban boards, and team analytics dashboard.",
-    tags: ["React", "TypeScript", "Firebase", "Tailwind"],
+    title: "Parentoday Website",
+    description: "Maintained and enhanced the Parentoday e-commerce website by fixing bugs, improving performance, and implementing feature updates to ensure a better shopping experience.",
+    tags: ["WordPress", "WooCommerce", "Figma", "CSS",],
     color: "#a855f7",
     gradient: "from-[#a855f7] to-[#ec4899]",
-    stats: { users: "12K+", rating: "4.8" },
+    stats: { users: "Software Engineer Intern", rating: "2025" },
     github: "https://github.com",
     live: "https://example.com",
   },
   {
-    title: "AI Content Studio",
+    title: "Cerita Moon Website",
     description: "AI-powered content generation platform with custom templates, SEO optimization, and multi-language support.",
-    tags: ["OpenAI", "Python", "FastAPI", "Next.js"],
+    tags: ["WordPress", "WooCommerce", "Figma", "CSS",],
     color: "#ec4899",
     gradient: "from-[#ec4899] to-[#f43f5e]",
-    stats: { users: "8K+", rating: "4.7" },
+    stats: { users: "Software Engineer Intern", rating: "2025" },
     github: "https://github.com",
     live: "https://example.com",
   },
   {
-    title: "DataViz Analytics",
-    description: "Real-time analytics dashboard with interactive D3.js charts, custom reports, and automated data exports.",
-    tags: ["D3.js", "Next.js", "PostgreSQL", "Docker"],
+    title: "Marufuku Jaya Buana",
+    description: "Developed a company profile website from planning to deployment, creating responsive pages and optimizing website performance for business needs.",
+    tags: ["WordPress", "Elementor","WooCommerce", "Figma", "CSS",],
     color: "#8b5cf6",
     gradient: "from-[#8b5cf6] to-[#6366f1]",
-    stats: { users: "25K+", rating: "4.9" },
+    stats: { users: "Software Engineer Intern", rating: "2025" },
     github: "https://github.com",
     live: "https://example.com",
   },
@@ -144,9 +144,10 @@ function ProjectCard({
           <div className="absolute inset-0 flex items-end p-6">
             <div>
               <h3 className="text-2xl font-bold text-white mb-1">{title}</h3>
-              <div className="flex gap-4 text-white/70 text-sm">
-                <span>{stats.users} users</span>
-                <span>★ {stats.rating}</span>
+              <div className="flex items-center gap-2 text-white/70 text-sm">
+                <span>{stats.users}</span>
+                <span className="text-white/40">•</span>
+                <span>{stats.rating}</span>
               </div>
             </div>
           </div>
