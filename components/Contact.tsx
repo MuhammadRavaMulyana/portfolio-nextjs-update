@@ -59,7 +59,7 @@ export default function Contact() {
             <div>
               <h3 className="text-2xl font-bold mb-4">Contact Information</h3>
               <p className="text-text-secondary leading-relaxed">
-                I&apos;m currently seeking full-time opportunities as a Software Engineer. Feel free to reach out via email, LinkedIn, or the contact form. I'd be happy to connect and discuss opportunities.
+                I&apos;m currently seeking full-time opportunities as a Software Engineer. Feel free to reach out via email, LinkedIn, or the contact form. I&apos;d be happy to connect and discuss opportunities.
               </p>
             </div>
 
