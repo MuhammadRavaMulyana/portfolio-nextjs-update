@@ -44,7 +44,7 @@ export default function Contact() {
             Let&apos;s <span className="gradient-text">Connect</span>
           </h2>
           <p className="text-text-secondary mt-4 max-w-xl mx-auto">
-            I&apos;m currently seeking full-time opportunities as a Software Engineer. I'm also open to internships and collaborations. Feel free to reach out through the contact form or connect with me via email or LinkedIn.
+            I&apos;m currently seeking full-time opportunities as a Software Engineer. I&apos;m also open to internships and collaborations. Feel free to reach out through the contact form or connect with me via email or LinkedIn.
           </p>
         </motion.div>
 
