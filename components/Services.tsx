@@ -58,13 +58,13 @@ export default function Services() {
           className="text-center mb-16"
         >
           <span className="inline-block text-sm font-semibold text-accent uppercase tracking-[3px] mb-4">
-            What I Do
+            EXPERTISE
           </span>
           <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight">
-            Services I <span className="gradient-text">Offer</span>
+            What I <span className="gradient-text">Do</span>
           </h2>
           <p className="text-text-secondary mt-4 max-w-xl mx-auto">
-            From concept to deployment, I provide end-to-end solutions for your digital needs.
+            I build responsive web applications, develop cross-platform mobile apps, and maintain reliable digital solutions using modern technologies.
           </p>
         </motion.div>
 
