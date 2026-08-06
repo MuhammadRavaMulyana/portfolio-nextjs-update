@@ -20,7 +20,7 @@ export default function Hero() {
     if (el) el.scrollIntoView({ behavior: "smooth" });
   };
 
-  const titleWords = ["Crafting", "Digital", "Experiences"];
+  const titleWords = ["Building", "Modern", "Web Applications"];
 
   return (
     <section
@@ -59,7 +59,7 @@ export default function Hero() {
           <span className="inline-flex items-center gap-2.5 px-5 py-2.5 rounded-full glass text-sm font-medium text-accent border border-accent/10">
             <Sparkles size={14} className="text-accent-2" />
             <span className="relative">
-              Available for freelance work
+              Fresh Graduate Software Engineer
               <span className="absolute -right-3 top-1/2 -translate-y-1/2 w-2 h-2 bg-green-400 rounded-full animate-pulse" />
             </span>
           </span>
@@ -97,10 +97,15 @@ export default function Hero() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.7, delay: 0.8, ease: [0.16, 1, 0.3, 1] }}
           className="text-lg md:text-xl text-text-secondary max-w-2xl mx-auto leading-relaxed mb-10"
-        >
-          I&apos;m a <span className="text-text-primary font-medium">creative developer</span> who transforms
-          ideas into immersive digital realities. Specializing in modern web technologies
-          with a focus on performance and aesthetics.
+>
+            <span className="text-text-primary font-medium">
+              Fresh Graduate Software Engineer
+            </span>{" "}
+              with internship experience in web development. Passionate about building
+              responsive, user-friendly, and high-performance web applications using{" "}
+            <span className="text-text-primary font-medium">
+              Next.js, React, Tailwind CSS, and TypeScript.
+            </span>
         </motion.p>
 
         {/* CTA Buttons */}
@@ -145,9 +150,9 @@ export default function Hero() {
           className="flex justify-center gap-8 md:gap-16 mt-16 pt-8 border-t border-white/[0.04]"
         >
           {[
-            { value: "5+", label: "Years Experience" },
-            { value: "50+", label: "Projects Delivered" },
-            { value: "30+", label: "Happy Clients" },
+            { value: "12", label: "Months Experience" },
+            { value: "4", label: "Projects Completed" },
+            { value: "4+", label: "Technologies Used" },
           ].map((stat) => (
             <div key={stat.label} className="text-center">
               <div className="text-2xl md:text-3xl font-bold gradient-text">{stat.value}</div>

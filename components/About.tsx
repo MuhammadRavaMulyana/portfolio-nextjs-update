@@ -5,6 +5,7 @@ import { useRef } from "react";
 import { useInView } from "@/hooks/useInView";
 import { useCountUp } from "@/hooks/useCountUp";
 import { Briefcase, GraduationCap, Award, Code2 } from "lucide-react";
+import Image from "next/image";
 
 const timeline = [
   {
@@ -38,10 +39,10 @@ const timeline = [
 ];
 
 const stats = [
-  { value: 50, suffix: "+", label: "Projects" },
-  { value: 5, suffix: "+", label: "Years" },
-  { value: 30, suffix: "+", label: "Clients" },
-  { value: 99, suffix: "%", label: "Satisfaction" },
+  { value: 4, label: "Projects Built" },
+  { value: 12, label: "Months Internship" },
+  { value: 4, suffix: "+", label: "Tech Stack" },
+  { value: 100, suffix: "%", label: "Commitment" },
 ];
 
 export default function About() {
@@ -70,7 +71,7 @@ export default function About() {
           <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight">
             Passionate about
             <br />
-            <span className="gradient-text">building the future</span>
+            <span className="gradient-text">building modern digital solutions</span>
           </h2>
         </motion.div>
 
@@ -82,14 +83,25 @@ export default function About() {
             transition={{ duration: 0.8, delay: 0.2, ease: [0.16, 1, 0.3, 1] }}
           >
             <p className="text-lg text-text-secondary leading-relaxed mb-6">
-              I&apos;m a <span className="text-text-primary font-medium">creative full-stack developer</span> with over 5 years of experience
-              building scalable web applications. My expertise spans from crafting pixel-perfect
-              UIs to architecting robust backend systems.
+              I&apos;m a{" "}
+              <span className="text-text-primary font-medium">
+                Fresh Graduate Software Engineer
+              </span>{" "}
+                with internship experience in web development. During my internship, I
+                contributed to developing and maintaining web applications while gaining
+                hands-on experience with modern technologies such as{" "}
+                <span className="text-text-primary font-medium">
+                  Next.js, React, Tailwind CSS, Flutter, and WordPress
+                </span>
+                .
             </p>
             <p className="text-lg text-text-secondary leading-relaxed mb-8">
-              I believe great software is born at the intersection of 
-              <span className="text-text-primary font-medium"> design and engineering</span>. Every project I take on is an opportunity
-              to push boundaries and create something truly memorable.
+              I enjoy solving real-world problems through{" "}
+              <span className="text-text-primary font-medium">
+                clean and efficient code
+              </span>
+                . I'm always eager to learn new technologies, improve my technical skills,
+                and collaborate with teams to build meaningful digital solutions.
             </p>
 
             {/* Stats */}
@@ -121,10 +133,20 @@ export default function About() {
               />
               <div className="absolute inset-0 flex items-center justify-center">
                 <div className="text-center">
-                  <div className="w-32 h-32 mx-auto mb-4 rounded-full bg-gradient-to-br from-accent/20 to-accent-2/20 flex items-center justify-center border border-accent/10">
-                    <Code2 size={48} className="text-accent/60" />
+                  <div className="absolute inset-0 flex items-center justify-center">
+                    <div className="relative w-[360px] h-[500px] overflow-hidden rounded-3xl border border-white/10 shadow-2xl">
+                      <Image
+                        src="/profile.jpg"
+                        alt="Muhammad Rava Mulyana"
+                        fill
+                        priority
+                        className="object-cover object-top transition-transform duration-500 hover:scale-105"
+                      />
+
+                      {/* Overlay agar menyatu dengan tema gelap */}
+                      <div className="absolute inset-0 bg-gradient-to-t from-black/20 via-transparent to-transparent"></div>
+                    </div>
                   </div>
-                  <p className="text-text-muted text-sm">Your Photo Here</p>
                 </div>
               </div>
               {/* Glow */}
