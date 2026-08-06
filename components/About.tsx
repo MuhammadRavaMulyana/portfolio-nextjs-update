@@ -91,7 +91,7 @@ export default function About() {
                 contributed to developing and maintaining web applications while gaining
                 hands-on experience with modern technologies such as{" "}
                 <span className="text-text-primary font-medium">
-                  Next.js, React, Tailwind CSS, Flutter, and WordPress
+                  Next.js, WordPress, Tailwind CSS, Flutter, and WordPress
                 </span>
                 .
             </p>

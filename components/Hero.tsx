@@ -104,7 +104,7 @@ export default function Hero() {
               with internship experience in web development. Passionate about building
               responsive, user-friendly, and high-performance web applications using{" "}
             <span className="text-text-primary font-medium">
-              Next.js, React, Tailwind CSS, and TypeScript.
+              Next.js, WordPress, Tailwind CSS, and TypeScript.
             </span>
         </motion.p>
 
