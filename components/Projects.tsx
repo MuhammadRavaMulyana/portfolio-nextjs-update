@@ -67,7 +67,7 @@ export default function Projects() {
             Featured <span className="gradient-text">Projects</span>
           </h2>
           <p className="text-text-secondary mt-4 max-w-xl mx-auto">
-            A selection of my recent work across various industries and technologies.
+            A collection of projects showcasing my experience in web development, UI/UX improvement, and software engineering.
           </p>
         </motion.div>
 
