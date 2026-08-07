@@ -26,31 +26,28 @@ export default function Contact() {
     const response = await fetch("/api/contact", {
       method: "POST",
       headers: {
-        "Content-Type": "application/json",
-      },
+       "Content-Type": "application/json",
+    },
       body: JSON.stringify(formData),
     });
-
+    const data = await response.json();
+    console.log("API Response:", data);
     if (!response.ok) {
-      throw new Error("Failed to send message");
+      alert(JSON.stringify(data));
+      return;
     }
-
+    
     setSubmitted(true);
-
     setFormData({
       name: "",
       email: "",
       message: "",
     });
-
-    setTimeout(() => {
-      setSubmitted(false);
-    }, 3000);
   } catch (error) {
     console.error(error);
     alert("Failed to send message. Please try again.");
-  }
-};
+    }
+  };
 
   return (
     <section id="contact" ref={ref} className="relative px-6 md:px-8 py-32 md:py-40">
