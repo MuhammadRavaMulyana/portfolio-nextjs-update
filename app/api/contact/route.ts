@@ -8,11 +8,7 @@ export async function POST(req: Request) {
     "API Key prefix:",
     process.env.RESEND_API_KEY?.substring(0, 6)
   );
-}
-  try {
-    const { name, email, message } = await req.json();
 
-    // ...
   try {
     const { name, email, message } = await req.json();
 
@@ -34,11 +30,11 @@ export async function POST(req: Request) {
     });
 
     if (error) {
+      console.error(error);
       return Response.json({ error }, { status: 500 });
     }
 
     return Response.json({ success: true });
-
   } catch (error) {
     console.error(error);
 
