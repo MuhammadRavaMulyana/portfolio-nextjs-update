@@ -3,6 +3,16 @@ import { Resend } from "resend";
 const resend = new Resend(process.env.RESEND_API_KEY);
 
 export async function POST(req: Request) {
+  console.log("API Key exists:", !!process.env.RESEND_API_KEY);
+  console.log(
+    "API Key prefix:",
+    process.env.RESEND_API_KEY?.substring(0, 6)
+  );
+}
+  try {
+    const { name, email, message } = await req.json();
+
+    // ...
   try {
     const { name, email, message } = await req.json();
 
